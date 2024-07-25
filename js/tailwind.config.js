@@ -2,7 +2,12 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-        extend: {},
+        extend: {
+            height: {
+                'card': '400px',
+                'player': '200px',
+            },
+        },
     },
     plugins: [],
 }
