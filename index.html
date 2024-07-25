@@ -5,10 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Five</title>
+    <style>
+        .site-title {
+            font-family: "Berkshire Swash", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #FF5E19;
+            text-align: center;
+            font-size: 76px;
+        }
+
+        .site-description {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            color: white;
+            font-size: 16px;
+            text-align: center;
+
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope:wght@200..800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
+    <header>
+        <div class="grid grid-cols-5 bg-black">
+            <div class="">
+                <img class="" src="img/mbappe-header.png" alt="mbappe-image">
+            </div>
+            <div class="col-span-3 mx-6 flex justify-center items-center">
+                <div>
+                    <h1 class="site-title mb-6">Select Your Best Five</h1>
+                    <p class="site-description px-14">Dive into the world of sports and construct your dream team. Our
+                        platform allows you to meticulously choose the top 5 players across different eras, putting your
+                        sports knowledge to the ultimate test. Compete against friends, rivals, or AI opponents to prove
+                        your team is the greatest. You'll have the tools to
+                        build a championship-caliber lineup. Are you ready to take on the challenge and claim your spot
+                        as the ultimate sports fan?</p>
+                </div>
+            </div>
+            <div class=""><img src="img/tenas.png" alt="ronaldo-image"></div>
+
+        </div>
+    </header>
     <script src="js/best.js"></script>
 </body>
 
