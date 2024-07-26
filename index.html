@@ -238,34 +238,34 @@
                         <div class="flex justify-between items-center mb-7">
                             <p class="text-xl text-gray-400">Per Player</p>
                             <input class="border-2 border-white bg-black w-1/2 text-white p-2" type="text" name=""
-                                id="">
+                                id="per-player-cost">
                         </div>
                         <div class="mb-7">
-                            <button
-                                class="w-full bg-blue-800 rounded-sm text-white font-medium text-xl px-10 py-3">Calculate</button>
+                            <button class="w-full bg-blue-800 rounded-sm text-white font-medium text-xl px-10 py-3"
+                                id="calculate-btn">Calculate</button>
                         </div>
                         <div class="flex justify-between items-center text-xl mb-4">
                             <p class="text-gray-400">Player Expenses</p>
-                            <p class="text-white">$<span>0000</span></p>
+                            <p class="text-white">$<span id="total-player-cost">0000</span></p>
                         </div>
                         <div class="flex  justify-between items-center mb-4">
                             <p class="text-xl text-gray-400">Manager</p>
                             <input class="border-2 border-white bg-black w-1/2 text-white p-2" type="text" name=""
-                                id="">
+                                id="manager-cost">
                         </div>
                         <div class="flex  justify-between items-center mb-7">
                             <p class="text-xl text-gray-400">Coach</p>
                             <input class="border-2 border-white bg-black w-1/2 text-white p-2" type="text" name=""
-                                id="">
+                                id="coach-cost">
                         </div>
                         <div class="mb-7">
                             <button
-                                class="w-full bg-blue-800 rounded-sm text-white font-medium text-xl px-10 py-3">Calculate
+                                class="w-full bg-blue-800 rounded-sm text-white font-medium text-xl px-10 py-3" id="calculate-total-btn">Calculate
                                 Total</button>
                         </div>
                         <div class="flex justify-between items-center text-gray-400 text-xl mb-4">
                             <p class="font-semibold">Total</p>
-                            <p class="text-orange-600 font-semibold">$<span>0000</span></p>
+                            <p class="text-orange-600 font-semibold">$<span id="total-cost">0000</span></p>
                         </div>
 
                     </div>
@@ -279,6 +279,7 @@
     </main>
     <script src="js/tailwind.config.js"></script>
     <script src="js/best.js"></script>
+    <script src="js/budget.js"></script>
 </body>
 
 </html>
